@@ -5,14 +5,14 @@ export default defineConfig({
   title: "MinecraftConnectTool Docx",
   description: "Minecraft 联机工具官方文档，涵盖快速上手、故障排查等指南，助你轻松实现零门槛跨网段联机",
 head: [
-      ['link', { rel: 'icon', href: '/favicon.ico' }]
+      ['link', { rel: 'icon', href: '/public/favicon.ico' }]
     ],
   srcDir: 'pages',
   outDir: 'dist',
   ignoreDeadLinks: true,
   cleanUrls: true,
   themeConfig: {
-    logo: '/favicon.ico'  ,   
+    logo: '/public/favicon.ico'  ,   
     // https://vitepress.dev/reference/default-theme-config
     outline: {
       level: [1, 3],    // 显示 h1 到 h3 级别的标题
